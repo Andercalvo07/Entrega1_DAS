@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.preference.PreferenceCategory
+        android:title="@string/language_settings"
+        app:iconSpaceReserved="false">
+
+        <androidx.preference.ListPreference
+            android:key="language"
+            android:title="@string/language"
+            android:summary="%s"
+            android:entries="@array/language_entries"
+            android:entryValues="@array/language_values"
+            android:defaultValue="en"
+            app:iconSpaceReserved="false" />
+    </androidx.preference.PreferenceCategory>
+
+    <androidx.preference.PreferenceCategory
+        android:title="@string/pref_appearance"
+        app:iconSpaceReserved="false">
+
+        <androidx.preference.SwitchPreferenceCompat
+            android:key="dark_theme"
+            android:title="@string/pref_dark_theme"
+            android:summary="@string/pref_dark_theme_summary"
+            android:defaultValue="false"
+            app:iconSpaceReserved="false" />
+
+        <androidx.preference.SwitchPreferenceCompat
+            android:key="24h_format"
+            android:title="@string/pref_24h_format"
+            android:summary="@string/pref_24h_format_summary"
+            android:defaultValue="true"
+            app:iconSpaceReserved="false" />
+    </androidx.preference.PreferenceCategory>
+
+    <androidx.preference.PreferenceCategory
+        android:title="@string/notification_settings"
+        app:iconSpaceReserved="false">
+
+        <androidx.preference.SwitchPreferenceCompat
+            android:key="enable_notifications"
+            android:title="@string/enable_notifications"
+            android:defaultValue="true"
+            app:iconSpaceReserved="false" />
+
+        <androidx.preference.ListPreference
+            android:key="notification_time"
+            android:title="@string/pref_notification_time"
+            android:summary="%s"
+            android:entries="@array/notification_time_entries"
+            android:entryValues="@array/notification_time_values"
+            android:defaultValue="30"
+            android:dependency="enable_notifications"
+            app:iconSpaceReserved="false" />
+    </androidx.preference.PreferenceCategory>
+
+    <androidx.preference.PreferenceCategory
+        android:title="@string/pref_workout_defaults"
+        app:iconSpaceReserved="false">
+
+        <androidx.preference.EditTextPreference
+            android:key="default_duration"
+            android:title="@string/pref_default_duration"
+            android:summary="@string/pref_default_duration_summary"
+            android:defaultValue="60"
+            android:inputType="number"
+            app:iconSpaceReserved="false" />
+    </androidx.preference.PreferenceCategory>
+
+</androidx.preference.PreferenceScreen> 

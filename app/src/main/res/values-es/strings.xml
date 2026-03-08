@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TrainUp</string>
+    
+    <!-- Navigation -->
+    <string name="navigation_drawer_open">Abrir menú de navegación</string>
+    <string name="navigation_drawer_close">Cerrar menú de navegación</string>
+    <string name="nav_header_title">TrainUp</string>
+    <string name="nav_header_subtitle">Tu planificador de entrenamientos</string>
+    <string name="nav_header_desc">Encabezado de navegación</string>
+    <string name="nav_home">Inicio</string>
+    <string name="nav_workout">Entrenamientos</string>
+    <string name="nav_profile">Perfil</string>
+    <string name="nav_settings">Ajustes</string>
+    <string name="menu_home">Inicio</string>
+    <string name="menu_calendar">Calendario</string>
+    <string name="menu_settings">Ajustes</string>
+    <string name="menu_workouts">Entrenamientos</string>
+    <string name="workouts">Entrenamientos</string>
+    <string name="settings">Ajustes</string>
+    <string name="action_settings">Ajustes</string>
+    <string name="title_home">Inicio</string>
+    <string name="title_workout">Entrenamientos</string>
+    <string name="title_profile">Perfil</string>
+    <string name="title_settings">Ajustes</string>
+    <string name="title_workout_detail">Detalle del entrenamiento</string>
+    <string name="workout_list">Lista de entrenamientos</string>
+    <string name="workout_detail">Detalle del entrenamiento</string>
+
+    <!-- Day names -->
+    <string name="sunday">Domingo</string>
+    <string name="monday">Lunes</string>
+    <string name="tuesday">Martes</string>
+    <string name="wednesday">Miércoles</string>
+    <string name="thursday">Jueves</string>
+    <string name="friday">Viernes</string>
+    <string name="saturday">Sábado</string>
+
+    <!-- Short day names -->
+    <string name="sunday_short">Dom</string>
+    <string name="monday_short">Lun</string>
+    <string name="tuesday_short">Mar</string>
+    <string name="wednesday_short">Mié</string>
+    <string name="thursday_short">Jue</string>
+    <string name="friday_short">Vie</string>
+    <string name="saturday_short">Sáb</string>
+
+    <!-- Workout related strings -->
+    <string name="add_workout">Añadir entrenamiento</string>
+    <string name="edit_workout">Editar entrenamiento</string>
+    <string name="delete_workout">Eliminar entrenamiento</string>
+    <string name="workout_title">Título</string>
+    <string name="workout_name">Nombre</string>
+    <string name="workout_description">Descripción</string>
+    <string name="workout_type">Tipo</string>
+    <string name="workout_duration">Duración (minutos)</string>
+    <string name="workout_time">Hora</string>
+    <string name="workout_location">Ubicación</string>
+    <string name="workout_day">Día de la semana</string>
+    <string name="workout_details">Detalles del entrenamiento</string>
+    <string name="workout_complete">Entrenamiento completado</string>
+    <string name="upcoming_workout">Próximo entrenamiento</string>
+    <string name="no_workouts">No hay entrenamientos programados</string>
+    <string name="no_workouts_today">No hay entrenamientos programados para hoy</string>
+    <string name="todays_workouts">Entrenamientos de hoy</string>
+    <string name="workout_added">Entrenamiento añadido correctamente</string>
+    <string name="workout_deleted">Entrenamiento eliminado correctamente</string>
+    <string name="workout_updated">Entrenamiento actualizado correctamente</string>
+    <string name="workout_conflict">Ya existe un entrenamiento programado a esta hora</string>
+    <string name="delete_workout_confirmation">¿Estás seguro de que quieres eliminar este entrenamiento?</string>
+    <string name="share_workout">Compartir entrenamiento</string>
+    <string name="add_to_calendar">Añadir al calendario</string>
+    <string name="rate_performance">Calificar rendimiento</string>
+    <string name="notes">Notas</string>
+
+    <!-- Actions -->
+    <string name="save">Guardar</string>
+    <string name="cancel">Cancelar</string>
+    <string name="ok">Aceptar</string>
+    <string name="yes">Sí</string>
+    <string name="no">No</string>
+    <string name="delete">Eliminar</string>
+    <string name="share">Compartir</string>
+    <string name="edit">Editar</string>
+    <string name="select_time">Seleccionar hora</string>
+    <string name="select_language">Seleccionar idioma</string>
+
+    <!-- Error messages -->
+    <string name="fill_all_fields">Por favor, rellena todos los campos requeridos</string>
+    <string name="invalid_duration">Duración inválida</string>
+    <string name="error_time_conflict">Ya existe un entrenamiento programado para esta hora</string>
+    <string name="error_empty_title">El título no puede estar vacío</string>
+    <string name="error_invalid_time">Hora inválida</string>
+    <string name="time_conflict">Ya existe un entrenamiento a esta hora</string>
+
+    <!-- Settings -->
+    <string name="format_24h">Formato 24 horas</string>
+    <string name="settings_notifications">Notificaciones</string>
+    <string name="settings_language">Idioma</string>
+    <string name="settings_24h_format">Formato 24h</string>
+    <string name="language">Idioma</string>
+    <string name="language_settings">Ajustes de idioma</string>
+    <string name="enable_notifications">Activar notificaciones</string>
+    <string name="settings_notification_time">Notificar 1 hora antes</string>
+    <string name="settings_language_english">Inglés</string>
+    <string name="settings_language_spanish">Español</string>
+    <string name="pref_dark_theme">Modo oscuro</string>
+    <string name="pref_dark_theme_summary">Activar modo oscuro</string>
+    <string name="settings_dark_mode">Modo oscuro</string>
+    <string name="dark_mode_enabled">Modo oscuro activado</string>
+    <string name="dark_mode_disabled">Modo oscuro desactivado</string>
+    <string name="pref_appearance">Apariencia</string>
+    <string name="pref_24h_format">Formato 24 horas</string>
+    <string name="pref_24h_format_summary">Usar formato de 24 horas</string>
+    <string name="notification_settings">Ajustes de notificaciones</string>
+    <string name="pref_notification_time">Hora de notificación</string>
+    <string name="pref_workout_defaults">Valores predeterminados</string>
+    <string name="pref_default_duration">Duración predeterminada</string>
+    <string name="pref_default_duration_summary">Duración predeterminada en minutos</string>
+
+    <!-- Language -->
+    <string name="english">Inglés</string>
+    <string name="spanish">Español</string>
+    <string name="language_changed">Idioma cambiado correctamente</string>
+
+    <!-- Workout Types -->
+    <string name="type_cardio">Cardio</string>
+    <string name="type_strength">Fuerza</string>
+    <string name="type_flexibility">Flexibilidad</string>
+    <string name="type_hiit">HIIT</string>
+    <string name="type_other">Otro</string>
+
+    <!-- Workout Locations -->
+    <string name="location_gym">Gimnasio</string>
+    <string name="location_home">Casa</string>
+    <string name="location_outdoor">Al aire libre</string>
+
+    <!-- Notifications -->
+    <string name="notification_channel_name">Recordatorios de entrenamiento</string>
+    <string name="notification_channel_description">Notificaciones para entrenamientos programados</string>
+    <string name="notification_title">Recordatorio de entrenamiento</string>
+    <string name="notification_message">Hora de tu entrenamiento: %1$s</string>
+    <string name="notifications_enabled">Notificaciones activadas</string>
+    <string name="notifications_disabled">Notificaciones desactivadas</string>
+    <string name="workout_reminder">Recordatorio de entrenamiento</string>
+    <string name="workout_reminder_text">¡Tu entrenamiento %1$s en %2$s está por comenzar!</string>
+    <string name="workout_reminder_content">Es hora de tu entrenamiento: %s</string>
+    <string name="workout_completed">Entrenamiento completado</string>
+    <string name="workout_completed_content">¡Buen trabajo completando %s!</string>
+    <string name="channel_name">Notificaciones de entrenamiento</string>
+    <string name="channel_description">Notificaciones para entrenamientos próximos y completados</string>
+
+    <!-- Profile -->
+    <string name="profile_name">Nombre</string>
+    <string name="profile_age">Edad</string>
+    <string name="profile_weight">Peso (kg)</string>
+    <string name="profile_height">Altura (cm)</string>
+    <string name="profile_heart_problems">Tengo problemas cardíacos</string>
+    <string name="profile_heart_problems_details">Detalles sobre problemas cardíacos</string>
+    <string name="profile_save">Guardar perfil</string>
+    <string name="profile_saved">Perfil guardado correctamente</string>
+    <string name="profile_fill_required">Por favor, rellena todos los campos obligatorios</string>
+    <string name="profile_heart_details_required">Por favor, proporciona detalles sobre tus problemas cardíacos</string>
+    <string name="profile_photo">Foto de perfil</string>
+    <string name="profile_change_photo">Cambiar foto</string>
+
+    <!-- Dialogs -->
+    <string name="delete_workout_title">Eliminar entrenamiento</string>
+    <string name="delete_workout_message">¿Estás seguro de que quieres eliminar este entrenamiento?</string>
+    <string name="confirm_delete">¿Estás seguro de que quieres eliminar este elemento?</string>
+
+    <!-- Errors -->
+    <string name="error_title_required">El título es obligatorio</string>
+    <string name="error_time_required">La hora es obligatoria</string>
+    <string name="error_duration_required">La duración es obligatoria</string>
+    <string name="error_duration_positive">La duración debe ser positiva</string>
+    <string name="error_duration_invalid">Formato de duración inválido</string>
+
+    <!-- Conflicts -->
+    <string name="conflict_title">Conflicto de horario</string>
+    <string name="conflict_message">Ya hay un entrenamiento programado a esta hora: %s</string>
+    
+    <!-- Settings export (text files) -->
+    <string name="export_settings">Exportar resumen de ajustes</string>
+    <string name="settings_export_success">Ajustes exportados a %1$s</string>
+    <string name="settings_export_error">Error al exportar los ajustes</string>
+
+    <!-- Home screen extra UI -->
+    <string name="home_welcome_title">Bienvenido a TrainUp</string>
+    <string name="home_welcome_subtitle">Planifica tus entrenamientos y sigue tu progreso</string>
+    <string name="home_quick_plan">Planificar</string>
+    <string name="home_quick_calendar">Calendario</string>
+    <string name="home_quick_stats">Estadísticas</string>
+</resources> 

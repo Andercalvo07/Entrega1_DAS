@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="error_title_required">Title is required</string>
+    <string name="error_time_required">Time is required</string>
+    <string name="error_time_invalid">Invalid time format (HH:mm)</string>
+    <string name="error_duration_required">Duration is required</string>
+    <string name="error_duration_positive">Duration must be greater than 0</string>
+    <string name="error_duration_invalid">Duration must be a number</string>
+    <string name="error_day_required">Day is required</string>
+    <string name="workout_added">Workout added successfully</string>
+    <string name="conflict_title">Schedule Conflict</string>
+    <string name="conflict_message">There are already workouts scheduled for this time:</string>
+    <string name="add_anyway">Add anyway</string>
+</resources> 
